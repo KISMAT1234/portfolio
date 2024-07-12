@@ -2,9 +2,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/ui/lamp";
+import { TextGenerateEffect } from "@/ui/text-generate-effect";
+const words = `Oxygen gets you high. In a catastrophic emergency, we're taking giant, panicked breaths. Suddenly you become euphoric, docile. You accept your fate. It's all right here. Emergency water landing, six hundred miles an hour. Blank faces, calm as Hindu cows`
+
 
 export default function Center() {
   return (
+    <>
+    <TextGenerateEffect words={words}/>
     <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
@@ -19,5 +24,7 @@ export default function Center() {
         Full Stack <br /> Developer
       </motion.h1>
     </LampContainer>
-  );
+    </>
+  )
 }
+
