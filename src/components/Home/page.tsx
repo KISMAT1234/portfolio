@@ -28,7 +28,7 @@ export default function Main() {
         <Link href="">
           <h1 className="text-2xl mx-2 font-serif hover:text-indigo-600 hover:text-3xl">Home</h1>
         </Link>
-        <Link href="">
+        <Link href="/blog">
           <h1 className="text-2xl mx-2 font-serif hover:text-indigo-600 hover:text-3xl">Blogs</h1>
         </Link>
         <Link href="">
