@@ -4,6 +4,8 @@ import Projects from "@/components/projects/page";
 import Hero from "@/components/Hero/page";
 import Image from "next/image";
 import Skills from "@/components/Skills/page";
+import Contact from "@/components/Contact/page";
+// import Footer from "@/components/Footer/page";
 
 
 
@@ -15,6 +17,9 @@ export default function Home() {
     <Skills/>
     <Center/>
     <Projects/>
+    {/* <Footer/> */}
+    <Contact/>
+
    </>
   );
 }
