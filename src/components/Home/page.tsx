@@ -40,10 +40,14 @@ export default function Main() {
       </div>
       <div className="flex">
         <div className="w-[100%]">
-          <div className="relative mt-[50%]">
+          <div className="relative mt-[30%]">
+          <div>
+            <h1 className="text-8xl text-stone-200 font-mono">Kismat</h1>
+            <h2 className="text-8xl text-stone-200 font-mono">Bohora</h2>
+          </div>
             <div className="text-2xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
               Hi, I'm
-              <FlipWords words={words} className="text-white mx-1" />
+              <FlipWords words={words} className="text-green-500 mx-1" />
               DEVELOPER
               <br />
             </div>
